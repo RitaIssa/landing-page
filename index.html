@@ -10,57 +10,76 @@
     </header>
 
     <body>
-        <div class="header">
-            <div class="header-logo-text">Header Logo</div>
-
-            <div class="header-link-text">
-                <ul>
-                    <li>header link one</li>
-                    <li>header link two</li>
-                    <li>header link three</li>
-                </ul>
-            </div>
-        </div>
-
         <div class="part-one">
-            <div class="left">
-                <div class="hero-main-text">This website is awesome</div>
-                <div class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is a lower contrast.</div>
-                <button class="sign-up">Sign Up</button>
+            <div class="navbar">
+                <div class="navbar-left">
+                    <p id="header-logo">Header Logo</p>
+                </div>
+                <div class="navbar-right">
+                        <ul>
+                            <li class="header-link">header link one</li>
+                            <li class="header-link">header link two</li>
+                            <li class="header-link">header link three</li>
+                        </ul>
+                </div>
             </div>
-            <div class="right">
-                <img id="hero-image" src="white.jpg" alt="A blue and white abstract background with heavy lines photo">
+            <div class="hero">
+                <div class="hero-left">
+                    <div class="hero-main-text">This website is <br/>awesome</div>
+                    <p class="hero-paragraph">This website has some subtext that goes here under the <br/>main title. It's a smaller font and the color is a lower <br/> contrast.</p>
+                    <button type="button" class="sign-up-one">Sign Up</button>
+                </div>
+                <div class="hero-right">
+                    <img id="hero-image" src="white.jpg" alt="A blue and white abstract background with heavy lines photo">
+                </div>
             </div>
-
         </div>
 
         <div class="part-two">
-            <div class="random">Some random information</div>
-            <div class="images">
-                <img id="nb1" src="one.svg" alt="picture of number 1 in the color orange">
-                <img id="nb2" src="two.svg" alt="picture of number 2 in the color red">
-                <img id="nb3" src="three.svg" alt="picture of number 1 in the color dark blue">
-                <img id="nb4" src="four.svg" alt="picture of number 1 in the color light blue">
-            </div>
-            <div class="info">
-                <div>this is some subtext under an illustration or image</div>
-                <div>this is some subtext under an illustration or image</div>
-                <div>this is some subtext under an illustration or image</div>
-                <div>this is some subtext under an illustration or image</div>
+            <p class="random">Some random information</p>
+            <div class="row">
+                <div class="row-info">
+                    <div class="row-image">
+                        <img id="nb" src="one.svg" alt="picture of number 1 in the color orange">
+                        <p class="subtext">this is some subtext </br> under an illustration </br> or image</p>
+                    </div>
+                </div>
+                <div class="row-info">
+                    <div class="row-image">
+                        <img id="nb" src="two.svg" alt="picture of number 2 in the color red">
+                        <p class="subtext">this is some subtext </br> under an illustration </br> or image</p>
+                    </div>
+                </div>
+                <div class="row-info">
+                    <div class="row-image">
+                        <img id="nb" src="three.svg" alt="picture of number 3 in the color dark blue">
+                        <p class="subtext">this is some subtext </br> under an illustration </br> or image</p>
+                    </div>
+                </div>
+                <div class="row-info">
+                    <div class="row-image">
+                        <img id="nb" src="four.svg" alt="picture of number 4 in the color light blue">
+                        <p class="subtext">this is some subtext </br> under an illustration </br> or image</p>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="part-three">
-            <div class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</div>
-            <div class="quote-by">-Thor, God of Thunder</div>
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a </br> customer. Maybe it's just filling up space, or maybe </br> people will actually read it. Who knows? All I know </br> is that it looks nice</p>
+            <p class="quote-by">-Thor, God of Thunder</p>
         </div>
 
         <div class="part-four">
-            <div class="left-call">
-                <div class="info-header-text">Call to action! It's time!</div>
-                <div class="info-secondary-text">Sign up for our product by clicking that button right over there!</div>
+            <div class="blue-container">
+                <div class="blue-left">
+                    <p class="blue-header">Call to action! It's time!</p>
+                    <p class="blue-info">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="blue-right">
+                    <button class="sign-up1">Sign Up</button> 
+                </div>
             </div>
-            <button class="sign-up1">Sign Up</button>
         </div>
 
         <div class="footer">Copyright © The Odin Project 2024</div>
