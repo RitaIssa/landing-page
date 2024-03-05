@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin: 10px 200px;
+}
+
+.header-logo-text{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: auto 200px;
+}
+
+.header-link-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.part-one{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: purple;
+    margin: auto 1px;
+}
+
+#hero-image{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto 500px;
+    background-color: yellow;
+}
+
+.hero-main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.random{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.images, .info{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    color: #1f2937;
+}
+
+.part-three{
+    background-color: #E5E7EB;
+    padding: 200px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-by{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.part-four{
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.info-header-text{
+    font-size: 36px;
+    color: #F9FAF8;
+}
+
+.info-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up1{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-color: #F9FAF8;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
